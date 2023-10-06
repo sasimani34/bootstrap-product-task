@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap kids clothing product</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <!----------------navbar---------->
@@ -17,21 +17,21 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto ">
-              <li class="nav-item px-2">
-                <a class="nav-link active" href="home">Home</a>
+              <li class="nav-item">
+                <a class="nav-link active" href="#home">Home</a>
               </li>
-              <li class="nav-item px-2">
-                <a class="nav-link" href="#">About</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
               </li>
               
-              <li class="nav-item px-2">
-                <a class="nav-link" href="#">Contact Us</a>
+              <li class="nav-item ">
+                <a class="nav-link" href="#contact">Contact Us</a>
               </li>
               <li class="nav-item px-2">
-                <a class="nav-link" href="#">Review</a>
+                <a class="nav-link" href="#review">Review</a>
               </li>
               <li class="nav-item px-2">
-                <a class="nav-link" href="#">Login</a>
+                <a class="nav-link" href="#login">Login</a>
               </li>
             </ul>
            
@@ -40,7 +40,7 @@
       </nav>
 
       <!----------------Home----------->
-      <div class="home">
+      <div id="home">
             
         <div id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators">
@@ -69,6 +69,148 @@
             </button>
           </div>
       </div>
+
+      <!-------------------About------------->
+      <div id="about">
+        <div class="container my-5">
+            <div class="row gx-5">
+                <div class="col sm-12 md-6 lg-6 ">
+                    <img class="img-fluid rounded" src="images/about.webp" alt="about image">
+                </div>
+                <div class="col  sm-12 md-6 lg-6 bg-light">
+                    <h2 class="display-4 mb-4">About Kidoz</h2>
+                    <p class="1h-lg">Kidoz one of the unique online stores in India, where everyone can get fashionable clothes for kids. The latest designer clothing for boys and girls on the market can be found here. In every season, you have the most modern style for your son and daughter.You want to choose clothes from the children's designer collection. Choose the colors and styles they like, instead of taking the colors and styles that others tell them as bold colors and eye-catching designs, which shows that their personality and style will also help them stand out from the crowd, which will attract Their attention and attract people of all ages.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!-------------------Contact-------------->
+      <div id="contact">
+        <div class="container my-5 ">
+            <div class="row gx-5">
+                <div class="col-md-5 bg-primary text-white rounded">
+                    <h3 class="text-center">Contact Us</h3>
+                    <div class="mt-5">
+                        <div class="d-flex">
+                            <p>Address: 134,xxx complex,yyyy-455555,sdfdg.India</p>
+                        </div><hr>
+                        <div class="d-flex">
+                            <p>Contact: 6789321567</p>
+                        </div><hr>
+                        <div class="d-flex">
+                            <p>Website: www.example.com</p>
+                        </div><hr>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="col-md-7 bg-light">
+                        <h4>Get in touch</h4>
+                          <div class="mb-3">
+                              <label for="formGroupExampleInput" class="form-label">Name</label>
+                              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your name">
+                            </div>
+                            <div class="mb-3">
+                              <label for="formGroupExampleInput2" class="form-label">Email</label>
+                              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your email">
+                            </div>
+                            <div class="mb-3">
+                              <label for="formGroupExampleInput2" class="form-label">Contact Number</label>
+                              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter your number">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button class="btn btn-primary justify-content-center">Submit</button>
+                      </div>
+                </div>
+            </div>
+
+            <!---------Login----------->
+            <div id="login">
+                <div class=" container d-flex justify-content-center bg-secondary-subtle text-emphasis-secondary  my-5">
+                   
+                        <form >
+                            <h4 class="text-center display-6"><b>Login</b></h4>
+                            <div class=" form-group mb-3 mt-5 ">
+                              <label for="email" class="form-label">User Name</label>
+                              <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="mb-3">
+                              <label for="password" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="password">
+                              <div id="emailHelp" class="form-text mt-3">Forget password ?</div>
+                            </div>
+                          
+                            <button type="submit" class="btn btn-primary center mt-5 mb-5">Login</button>
+                          </form>
+                    </div>
+            
+                </div>
+            </div>
+
+        
+             <!---------Review----------->
+             <div id="review">
+                <h2 class="display-4 text-center ">Reviews</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card text-bg-light ml-auto p-3 h-70" style="width: 18rem;">
+                            <img src="images/card-1.png" class="img-fluid" >
+                            <div class="card-body ">
+                                
+                                
+                            <h5 class="card-title">IN LOVE</h5>
+                            <p class="card-text center">I cannot say enough about how precious the Lucy jumpsuit is on! The material is SO SOFT, it like she is wearing cozy pajamas but she looks like she ready for a family photo shoot at the same time! Highly recommend!!</p>
+                            
+                            </div>
+                            <div class="icon1 mx-auto">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                               
+                            </div>
+                            
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="card text-bg-light ml-auto p-3 h-70" style="width: 18rem;">
+                            <img src="images/card-2.jpg" class="" alt="...">
+                            <div class="card-body ">
+                                
+                                
+                            <h5 class="card-title">Best Candle Ever!</h5>
+                            <p class="card-text center">This was my first purchase of Will & Ivey for my two granddaughters and another new grand baby due soon. The quality of their clothing is amazing and I will definitely be back many times in the future!</p>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                                
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="card text-bg-light ml-auto p-3 h-70" style="width: 18rem;" >
+                            <img src="images/card-3.jpg" class="img-fluid" alt="...">
+                            <div class="card-body ">
+                                
+                                
+                            <h5 class="card-title">Soft, luxurious, loved</h5>
+                            <p class="card-text center">My dear friend Marie loved the unique one piece for her soon to be baby boy. It got the “pass that around feel test” at the shower..</p>
+                            
+                            </div>
+                            <div class="icon mx-auto">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                                
+                            </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

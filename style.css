@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Martian+Mono&family=Montserrat&family=Young+Serif&display=swap');
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*carosoul image */
+/* .carousel-inner>img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}  */
+
+.navbar-brand
+    {
+        font-size: 30px !important;
+        font-weight: 600;
+    }
+    .nav-item{
+        font-size: 18px;
+    }
+    
+
+.c-item{
+    height: 500px;
+}
+
+.c-img{
+    margin: 0;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    filter: brightness(1.0);
+}
